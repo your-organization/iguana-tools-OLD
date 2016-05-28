@@ -9,8 +9,8 @@
    </to_channel>
    <from_mapper
       guid="Schedule_Channel_Run-From-CLXyvvLL2lpvEB"
-      commit_id="4509e25abd8d4b481581d28483f945d53cd6861a"
-      commit_comment="update help again - reverse previous change was incorrect..."
+      commit_id="28ec6b658899d0882b08dca5f17ca1eea345cf27"
+      commit_comment="multiple run stuff"
       poll_time="10000">
    </from_mapper>
 </channel>
