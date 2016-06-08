@@ -27,14 +27,17 @@ local function Schedule()
    scheduler.runAt(21.5, DoBatchProcess1)   
    scheduler.runAt(22.0, DoBatchProcess1)   
    scheduler.runAt(23.5, DoBatchProcess1)   
+   scheduler.runAt(15.25, DoBatchProcess1)   
+   scheduler.runAt(15.29, DoBatchProcess1)   
    
    -- schedule several different tasks
    scheduler.runAt(11.5, DoBatchProcess1)   
-   scheduler.runAt(11.5, DoBatchProcess2)   
+   scheduler.runAt(20.24, DoBatchProcess2)   
+   scheduler.runAt(20.27, DoBatchProcess2)   
    scheduler.runAt(11.5, DoBatchProcess3)   
    scheduler.runAt(21.5, DoBatchProcess1)   
    scheduler.runAt(21.5, DoBatchProcess2)   
-   scheduler.runAt(21.5, DoBatchProcess3)   
+   scheduler.runAt(21.5, DoBatchProcess3)         
 end
 
 return Schedule

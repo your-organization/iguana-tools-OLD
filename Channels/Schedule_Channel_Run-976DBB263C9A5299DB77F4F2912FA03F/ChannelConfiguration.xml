@@ -9,8 +9,17 @@
    </to_channel>
    <from_mapper
       guid="Schedule_Channel_Run-From-CLXyvvLL2lpvEB"
-      commit_id="28ec6b658899d0882b08dca5f17ca1eea345cf27"
-      commit_comment="multiple run stuff"
+      commit_id="4404714e550ed20d63f892ecd31c644240b09165"
+      commit_comment="final"
       poll_time="10000">
    </from_mapper>
+   <message_filter
+      filter_after_logging="false"
+      log_pre_post_filter_message="true"
+      filter_vmd_path=""
+      transformation_mode="0"
+      scripted_transformation_configuration_name="default"
+      error_handling="0"
+      use_translator_filter="true">
+   </message_filter>
 </channel>

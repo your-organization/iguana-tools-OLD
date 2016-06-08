@@ -3,10 +3,11 @@
         "complexSchedule.lua"
     ],
     "LuaDependencies": [
-        "scheduler"
+        "scheduler",
+        "store2"
     ],
     "OtherDependencies": [],
-    "timestamp": "1464428677",
+    "timestamp": "1465387663",
     "version_info": {
         "build": 0,
         "major": 6,
