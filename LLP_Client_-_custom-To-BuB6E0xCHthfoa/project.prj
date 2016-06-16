@@ -1,10 +1,9 @@
 {
     "LocalDependencies": [
-        "complexSchedule.lua"
+        "ack.vmd"
     ],
     "LuaDependencies": [
-        "scheduler",
-        "store2"
+        "llp"
     ],
     "OtherDependencies": [],
     "timestamp": "1466094434",

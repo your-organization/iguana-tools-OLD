@@ -1,10 +1,7 @@
 {
-    "LocalDependencies": [
-        "complexSchedule.lua"
-    ],
+    "LocalDependencies": [],
     "LuaDependencies": [
-        "scheduler",
-        "store2"
+        "retry"
     ],
     "OtherDependencies": [],
     "timestamp": "1466094434",

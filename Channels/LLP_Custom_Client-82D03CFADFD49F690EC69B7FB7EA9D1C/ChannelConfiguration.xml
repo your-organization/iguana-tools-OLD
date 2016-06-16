@@ -1,0 +1,24 @@
+<channel
+   name="LLP Custom Client"
+   guid="82D03CFADFD49F690EC69B7FB7EA9D1C"
+   description="Custom LLP client written in Lua.&#xD;&#xA;&#xD;&#xA;http://help.interfaceware.com/v6/llp-client-custom"
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="LLP_Client_-_custom-To-BuB6E0xCHthfoa"
+      commit_id="f8cd9c22eb1d4debbe9ff8973b7e9399676cb1fa"
+      commit_comment="update comments">
+      <dequeue_list>
+         <dequeue
+            source_name="self"
+            dequeue_guid="A840A0872E019BDBF384F66D348E0CB6"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_llp_listener
+      ack_vmd_path="/Applications/iNTERFACEWARE-Iguana.app/Contents/iNTERFACEWARE-Iguana/autoack.vmd"
+      port="7013"
+      connection_timeout="30"
+      unlimited_connection_timeout="false"
+      ack_style="fast"/>
+</channel>

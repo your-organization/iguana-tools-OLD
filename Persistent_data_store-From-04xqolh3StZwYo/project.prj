@@ -1,9 +1,10 @@
 {
     "LocalDependencies": [
-        "complexSchedule.lua"
+        "store2_example.lua",
+        "store_example.lua"
     ],
     "LuaDependencies": [
-        "scheduler",
+        "store",
         "store2"
     ],
     "OtherDependencies": [],

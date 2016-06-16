@@ -1,0 +1,24 @@
+<channel
+   name="Retry periodic failure"
+   guid="8AE1380886C1E43CAFF89AD993657E79"
+   description="This retry example channel has a random ADT generator attached to a translator which has an example of calling the retry module.&#xD;&#xA;&#xD;&#xA;This can be used to recover from periodic errors.&#xD;&#xA;&#xD;&#xA;http://help.interfaceware.com/v6/retry-example&#xD;&#xA;"
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="Retry_periodic_failure-To-JkcMmbvQzMnggb"
+      commit_id="75b9396c7bfd9cbe4846fa938c80aeaf1f35098d"
+      commit_comment="fixed global functions in main - local">
+      <dequeue_list>
+         <dequeue
+            source_name="self"
+            dequeue_guid="F2E64186E929E8EF88038B0F6176D660"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_mapper
+      guid="Retry_periodic_failure-From-mWVEK3maZIb2vw"
+      commit_id="44b2544ff5752dcc3e53bb6172a433a8d54fe52f"
+      commit_comment="help"
+      poll_time="100000">
+   </from_mapper>
+</channel>

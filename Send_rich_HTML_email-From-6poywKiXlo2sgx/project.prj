@@ -1,10 +1,12 @@
 {
     "LocalDependencies": [
-        "complexSchedule.lua"
+        "iguana-logo.png",
+        "template.html",
+        "text.txt"
     ],
     "LuaDependencies": [
-        "scheduler",
-        "store2"
+        "encrypt.password",
+        "mime"
     ],
     "OtherDependencies": [],
     "timestamp": "1466094434",

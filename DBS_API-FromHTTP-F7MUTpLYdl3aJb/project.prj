@@ -1,10 +1,9 @@
 {
     "LocalDependencies": [
-        "complexSchedule.lua"
+        "ToJson.lua"
     ],
     "LuaDependencies": [
-        "scheduler",
-        "store2"
+        "dbs.api"
     ],
     "OtherDependencies": [],
     "timestamp": "1466094434",

@@ -1,12 +1,12 @@
 {
-    "LocalDependencies": [
-        "complexSchedule.lua"
-    ],
+    "LocalDependencies": [],
     "LuaDependencies": [
-        "scheduler",
-        "store2"
+        "ran"
     ],
-    "OtherDependencies": [],
+    "OtherDependencies": [
+        "example/demo.vmd",
+        "random/generator.vmd"
+    ],
     "timestamp": "1466094434",
     "version_info": {
         "build": 0,

@@ -1,0 +1,16 @@
+<channel
+   name="Strip Unprintable Characters"
+   guid="0D823435C1E045245E4756CEBA7F9FA1"
+   description="Sometimes you have large strings containing non ascii characters that can cause some systems to hiccup.&#xD;&#xA;&#xD;&#xA;This example shows some simple fast code to handle this problem by removing them.&#xD;&#xA;&#xD;&#xA;http://help.interfaceware.com/v6/strip-unprintable-characters "
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_channel>
+   </to_channel>
+   <from_mapper
+      guid="Strip_Unprintable_Characters-From-r8b5YKtoVlIbiE"
+      commit_id="f2965ec4d3455a440e24b7ca94ab6e62a8770e7e"
+      commit_comment="updated code, help and comments"
+      poll_time="10000">
+   </from_mapper>
+</channel>

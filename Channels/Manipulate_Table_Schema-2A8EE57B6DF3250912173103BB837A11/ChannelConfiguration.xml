@@ -1,0 +1,25 @@
+<channel
+   name="Manipulate Table Schema"
+   guid="2A8EE57B6DF3250912173103BB837A11"
+   description="This module gives an example of a nice easy to use API for creating DBS schema.  &#xD;&#xA;&#xD;&#xA;See: http://help.interfaceware.com/v6/manipulate-database-schema&#xD;&#xA;&#xD;&#xA;This makes DBS into a convenient tool for creating intuitive to use web adapters."
+   start_automatically="true"
+   logging_level="1"
+   use_message_filter="false">
+   <to_channel>
+   </to_channel>
+   <from_http
+      type="mapper"
+      guid="DBS_API-FromHTTP-F7MUTpLYdl3aJb"
+      commit_id="5e7b1f56beb6d028884134942491130b460dbabf"
+      commit_comment="hhhh"
+      mapper_url_path="dbs"/>
+   <message_filter
+      filter_after_logging="false"
+      log_pre_post_filter_message="true"
+      filter_vmd_path=""
+      transformation_mode="0"
+      scripted_transformation_configuration_name="default"
+      error_handling="0"
+      use_translator_filter="true">
+   </message_filter>
+</channel>
